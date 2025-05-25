@@ -14,8 +14,8 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '00000000',
-  database: 'attendance',
+  password: 'db password',
+  database: 'db name',
 });
 //Routes
 app.get('/', (req, res) => {
